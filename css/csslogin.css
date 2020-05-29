@@ -1,0 +1,63 @@
+body {
+    background-image: url("https://www.ecopetit.cat/wpic/mpic/248-2485765_kali-linux-wallpaper-4k.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.blackhat{
+    width: 80px;
+    height:80px;
+    border-radius: 50%; /*avatar circle */
+    padding: 0 97.1px;
+    margin-top: -120px;
+}
+
+h1{
+    text-align: center;
+    padding: 5px 10px 10px;
+    font-size: 30px ;
+}
+
+.butt,.info{
+    padding-left: 25px;
+}
+
+.info label{
+    font-weight: bolder ;
+}
+
+.info input{
+    width: 90%;
+    margin-bottom: 20px;
+    border:none; 
+    border-bottom: 2px solid #696969;
+    background: transparent; /* hold background color inside */
+    height: 19px;
+    color : #686868 ;
+      
+}
+
+#box {
+    width: 310px;
+    height: 410px;
+    background-color: #000000;
+    color : #484848;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    position: absolute; /*move box */
+    transform: translate(-50%, -50%); /* move box center */
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.login{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #500000 ;
+    color:#484848;
+    border: none ;
+    padding: 6px 8px;
+    width: 90%;
+}
