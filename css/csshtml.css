@@ -1,0 +1,33 @@
+*{
+    margin: 10;
+    padding:0;
+}
+
+body{
+    background-image: url('../images/bk2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.menu{
+    font-weight: bolder;
+    padding:37px;
+    font-size: 18px;
+    
+   
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+#head{
+    font-size: 26px;
+    font-weight: bolder 1px;
+    color: #A52A2A;
+    padding : 20px;
+    font-family: 'Satisfy', cursive;
+}
