@@ -24,16 +24,6 @@ header{ /*chữ lên hình */
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-<<<<<<< HEAD
-.menu{
-    font-weight: bolder;
-    padding:37px;
-    font-size: 18px;
-    color: black;
-    
-   
-=======
 .container{
     max-width: 1000px;
     margin: auto;
@@ -44,7 +34,6 @@ header{ /*chữ lên hình */
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
->>>>>>> e250c6d9f2feb333223a9cd821e98685e0a53ad3
 }
 
 header .shop a{
