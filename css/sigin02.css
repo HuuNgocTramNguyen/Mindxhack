@@ -1,0 +1,79 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1583209814683-c023dd293cc6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+     background-size: cover;  
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 40px;
+    opacity: 0.9;
+    border: 1px soli none;
+    width: 500px;
+    height: 550px;
+    margin-top: 110px;
+    margin-left: 450px; 
+}
+#head{
+     margin-left: 182px;
+   margin-top: -10px;
+    font-size: 30px;
+    color: black;
+}
+
+
+#con{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: -40px;
+    font-size: 10px;
+    height: 300px;
+    width: 300px;
+   border: 2px solid none;
+   
+}
+.con1{
+    width: 280px;
+    height: 20px;
+}
+.aa{
+    font-size: 20px;
+    color: red;
+   
+}
+
+
+
+#in{
+    width: 200px;
+    height: 40px;
+}
+#in1{
+    
+    width: 200px;
+    height: 40px;
+   
+    
+}
+#ipcancel{
+    /* width: 100px; */
+    margin-left: 20px;
+    margin-top: -113px;
+}
+.input{
+     
+    width: 200px;
+    height: 40px;
+    border: 1px solid none;
+    padding: 10px;
+    margin-left: 267px;
+    margin-top: -35px;
+}
+
+
+

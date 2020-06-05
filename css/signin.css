@@ -1,0 +1,121 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1583209814683-c023dd293cc6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+     background-size: cover; 
+     /* background-repeat: no-repeat; */
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   */
+    /* background-image:url("https://zicxa.com/hinh-anh/wp-content/uploads/2019/07/T%E1%BB%95ng-h%E1%BB%A3p-c%C3%A1c-h%C3%ACnh-%E1%BA%A3nh-background-%C4%91%E1%BA%B9p-nh%E1%BA%A5t-28.jpg") */
+    
+  
+   
+}
+
+#txtUsername{   
+  height: 23px;
+  width:230px; 
+}
+#txtPass{
+    height: 23px;
+    width:230px
+}
+
+
+
+    
+   
+
+#container{
+   
+ 
+    
+    border-radius: 40px;
+   
+    background-color:white;
+    
+    
+    opacity: 0.9;
+    
+   border: 1px solid none;
+    width: 700px;
+    height: 290px;
+    margin-top: 180px;
+    margin-left: 350px;
+    
+}
+
+#texth{
+    margin-left: 163px;
+    padding: 20px;
+    font-size: 25px;
+    color: black;
+}
+
+#con{
+    margin-left:55px;
+  padding: -20px;
+    color: #FF0000;
+    font-size: 23px; 
+   
+}   
+
+
+
+#con1{margin-left: 60px;
+    color:#FF0000;
+    font-size: 23px;
+   margin-top: 1px;
+   
+}
+#aa{
+   
+   color:#FF0000;	
+   font-size: 15px;
+   background-color:white;
+   margin-left: 30px ;
+   padding: 7px;
+}
+#aa:hover{ background-color: black;}
+#or{
+    margin-top: 20px;
+    margin-left:247px ;
+    font-size: 25px;
+    color:black;
+}
+
+
+.fa {
+    height:13px ;
+    padding: 8px;
+    font-size: 15px;
+    width: 150px;
+    text-align: center;
+    text-decoration:none;
+    margin: 5px 5px;
+  }
+  .fa:hover {
+    opacity: 0.7;
+    }
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+    }
+    .fa-twitter {   
+        background: #55ACEE;
+        color: white;
+    }
+    #fb{
+
+        margin-left: 91px;
+       margin-top: 20px;
+    }
+   
+    #text{
+        margin-left: 84px;
+        margin-top: 28px;
+        color:black;
+        font-size: 13px;
+    }
+    
+   
+   
+
+       
