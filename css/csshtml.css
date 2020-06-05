@@ -1,16 +1,31 @@
-*{
-    margin: 10;
-    padding:0;
+body {
+    margin: 0 ;
+    font-family: 'Dancing Script', cursive;
 }
 
-body{
-    background-image: url('../images/bk2.jpg');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{ /*chữ lên hình */
+    padding: 0px 40px;
+    border-bottom: 2px solid #FFDAB9 ;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    z-index: 12;
+}
+
+.home{
+    min-height: 100vh;
+    background-image:url('../images/bk.1.jpg');
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    height: 100vh;
 }
 
+<<<<<<< HEAD
 .menu{
     font-weight: bolder;
     padding:37px;
@@ -18,17 +33,96 @@ body{
     color: black;
     
    
+=======
+.container{
+    max-width: 1000px;
+    margin: auto;
 }
 
-.menu a{
+.menu-inside{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+>>>>>>> e250c6d9f2feb333223a9cd821e98685e0a53ad3
+}
+
+header .shop a{
     text-decoration: none;
-    color: white;
+    text-transform: uppercase;
+    color: #FFA500 ;
+    font-size: 34px;
+    font-weight: 400;
+    position: relative;
+    line-height: 60px;
 }
 
-#head{
-    font-size: 26px;
-    font-weight: bolder 1px;
-    color: #A52A2A;
-    padding : 20px;
-    font-family: 'Satisfy', cursive;
+header .shop a::before{
+    height: 5px;
+    background-color: #ffffff;
+    width: 100%;
+    content:'';
+    position: absolute;
+    left: 0px;
+    margin: 0px;
+}
+
+header .menu ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+header .menu ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+header .menu ul li a{
+    color: #8B0000;
+    line-height: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+}
+
+header .menu ul li a.active::before{
+    height: 3px;
+    background-color: #ffffff;
+    width: 100%;
+    content:'';
+    position: absolute;
+    bottom: -8px;
+    left: 0px;
+}
+
+.home .full{
+    min-height: 100vh;
+}
+
+.home .header-content{
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.home .header-content .welcome{
+    flex:  0 0 70%;
+    max-width: 70%;
+}
+
+.home .header-content .welcome h4{
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+    padding: 00;
+}
+
+.home .header-content .welcome h1{
+    color:#ffffff;
+    font-size: 60px;
+    font-weight: 600;
 }
