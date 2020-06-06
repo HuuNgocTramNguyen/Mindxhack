@@ -17,13 +17,69 @@ header{ /*chữ lên hình */
     z-index: 12;
 }
 
-.home{
+ .home {
     min-height: 100vh;
-    background-image:url('../images/bk.1.jpg');
+    background-image:url('../images/b7.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+slider > * {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    animation: slide 12s infinite ;
+    overflow: hidden;
+
+}
+slide:nth-child(1) {
+    animation-delay: -1s;
+    min-height: 100vh;
+    background-image:url('../images/b7.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+slide:nth-child(2) {
+    animation-delay: 3s;
+    min-height: 100vh;
+    background-image:url('../images/sale.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+slide:nth-child(3) {
+    animation-delay: 6s;
+    min-height: 100vh;
+    background-image:url('../images/cos7.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+slide:nth-child(3) {
+    left : 0%;
+    animation-delay: 9s;
+    min-height: 100vh;
+    background-image:url('../images/cos8.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+@keyframes slide{
+    0% { left : 100%; width: 100%;}
+    5% {left: 0%;}
+    25% {left: 0%;}
+    30% {left: -100%; width: 100%;}
+    30.0001% {left: -100%; width: 0%;}
+    100%{ left: 100%; width: 0%;}
+}
+
 .container{
     max-width: 1000px;
     margin: auto;
@@ -86,11 +142,12 @@ header .menu ul li a.active::before{
     left: 0px;
 }
 
-.home .full{
+/* .home .full{
     min-height: 100vh;
 }
 
-.home .header-content{
+ .home .header-content{
+    background-color: blue;
     flex: 0 0 100%;
     max-width: 100%;
     display: flex;
@@ -99,31 +156,33 @@ header .menu ul li a.active::before{
 }
 
 .home .header-content .welcome{
-    flex:  0 0 50%;
-    max-width: 70%;
-}
+    background-color: red;
+    flex: 0 0 50%;
+    padding-bottom: 60%;
+    vertical-align: bottom;
+} 
 
-.home .header-content .welcome h4{
-    color:#ffffff;
-    font-size: 20px;
-    font-weight: 300;
-    margin: 0;
-    padding: 0;
-}
+ .home .header-content .welcome h4{
+    align-items: flex-end;
+}  */
 
-.home .header-content .welcome h1{
+/* .home .header-content .welcome h1{
     color:#ffffff;
     font-size: 60px;
     font-weight: 600;
 }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 .welcome{
+=======
+.welcome{ */
+>>>>>>> Stashed changes
     /* padding: 0px 40px; */
-    margin-bottom: 30px ;
-}
+    /* margin-bottom: 30px ;
+} */
 
-/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@300&display=swap');
 
 .product{
     width: 80%;
@@ -131,7 +190,7 @@ header .menu ul li a.active::before{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* margin-top: 68px; */
+    margin-top: 68px;
     background-color: #ffffff;
 }
 
@@ -173,6 +232,7 @@ body{
 .contact .cus{
     font-weight: bold;
     font-size:25px;
+<<<<<<< Updated upstream
 }
 
 
@@ -223,3 +283,6 @@ body{
     background-color: #3e8e41;
   }
 
+=======
+}  
+>>>>>>> Stashed changes
