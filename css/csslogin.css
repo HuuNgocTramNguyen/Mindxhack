@@ -2,6 +2,8 @@ body {
     background-image: url("https://www.ecopetit.cat/wpic/mpic/248-2485765_kali-linux-wallpaper-4k.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 

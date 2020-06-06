@@ -47,8 +47,9 @@ header .shop a{
 }
 
 header .shop a::before{
-    height: 5px;
-    background-color: #ffffff;
+    bottom: -3px;
+    height: 3px;
+    background-color: #FFA500;
     width: 100%;
     content:'';
     position: absolute;
@@ -77,7 +78,7 @@ header .menu ul li a{
 
 header .menu ul li a.active::before{
     height: 3px;
-    background-color: #ffffff;
+    background-color: #8B0000;
     width: 100%;
     content:'';
     position: absolute;
@@ -98,20 +99,77 @@ header .menu ul li a.active::before{
 }
 
 .home .header-content .welcome{
-    flex:  0 0 70%;
+    flex:  0 0 50%;
     max-width: 70%;
 }
 
 .home .header-content .welcome h4{
     color:#ffffff;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 300;
     margin: 0;
-    padding: 00;
+    padding: 0;
 }
 
 .home .header-content .welcome h1{
     color:#ffffff;
     font-size: 60px;
     font-weight: 600;
+}
+
+.welcome{
+    /* padding: 0px 40px; */
+    margin-bottom: 30px ;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@300&display=swap'); */
+
+.product{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin-top: 68px; */
+    background-color: #ffffff;
+}
+
+.product .items{
+    width: 206px;
+    height: 270px;
+    text-align: center;
+}
+
+.product .items img{
+    width: 100%;
+    height: auto ;
+}
+
+.product .items h1{
+    margin-top: 20px;
+}
+
+.prdName{
+    width: 80%;
+    margin: 0 auto;
+}
+.prdName h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+body{
+    background-color: #FFEFD5
+} 
+
+.contact{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.contact .cus{
+    font-weight: bold;
+    font-size:25px;
 }

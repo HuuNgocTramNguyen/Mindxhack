@@ -1,32 +1,24 @@
 body{
     background-image: url("https://images.unsplash.com/photo-1583209814683-c023dd293cc6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
-     background-size: cover; 
-     /* background-repeat: no-repeat; */
-    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   */
+    background-size: cover; 
+    background-repeat: no-repeat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    background-position: center;
+    height: 70vh;
     /* background-image:url("https://zicxa.com/hinh-anh/wp-content/uploads/2019/07/T%E1%BB%95ng-h%E1%BB%A3p-c%C3%A1c-h%C3%ACnh-%E1%BA%A3nh-background-%C4%91%E1%BA%B9p-nh%E1%BA%A5t-28.jpg") */
-    
-  
-   
 }
 
 #txtUsername{   
   height: 23px;
   width:230px; 
 }
+
 #txtPass{
     height: 23px;
     width:230px
 }
 
-
-
-    
-   
-
-#container{
-   
- 
-    
+#container{ 
     border-radius: 40px;
    
     background-color:white;
