@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://images.unsplash.com/photo-1583209814683-c023dd293cc6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    background-image: url("https://image.freepik.com/free-photo/top-view-cosmetics-yellow-background-with-copy-space_23-2148306697.jpg");
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
@@ -27,21 +27,52 @@ body{
     opacity: 0.9;
     border: 1px solid none;
     width: 700px;
-    height: 326px;
-    margin-top: 180px;
+    height: 378px;
+    margin-top: 150px;
     margin-left: 350px;
     
 }
-
+/* 
 #texth{
-    /* margin-left: 163px; */
     padding: 20px;
     font-size: 40px;
     color: #FFFF00;
     font-family: 'IM Fell English', serif;
     text-align: center;
+} */
+
+#texth h1{
+    display: inline-block;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700px;
+    margin  : 0 0 px; /* space h1 vs p */
+    padding-bottom: 1px;
+    position: relative;
+    color:#FFFF00;
+    font-family: 'IM Fell English', serif;
+    margin-left: 139px;
+    margin-bottom: -11px;
 }
 
+#texth h1::before{
+    content:'';
+    left: 0px;
+    height: 3px;
+    position: absolute;
+    right: 0px;
+    background-color: #FFFF00;
+    bottom: 0px;
+}
+
+#texth p{
+    display: block;
+    font-size: 20px;
+    background-color: white;
+    font-weight: 300;
+    letter-spacing: 2px; /* căn cách giữa các chữ */
+    margin-left: 297px;
+} 
 #con{
     margin-left: 160px;
     padding: -20px;
@@ -56,10 +87,11 @@ body{
     color:black;
     font-size: 23px;
     margin-top: 1px;
-    margin-bottom: 100px;
+    margin-bottom: 16px;
+
 }
+
 #aa{
-   
    color:#FF0000;	
    font-size: 15px;
    background-color:white;
@@ -68,8 +100,13 @@ body{
 }
 #aa:hover{ background-color: black;}
 
+#btn #submit{
+    margin-left: 320px;
+    margin-bottom: -12px
+}
+
 #or{
-    margin-top: 20px;
+    margin-top: 12px;
     margin-left: 329px;
     font-size: 25px;
     color:black;
@@ -100,7 +137,7 @@ body{
     #fb{
 
         margin-left: 116px;
-        margin-top: 20px;
+        margin-top: 9px;
     }
    
     #text{
