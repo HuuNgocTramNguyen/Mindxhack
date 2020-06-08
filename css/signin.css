@@ -2,60 +2,61 @@ body{
     background-image: url("https://images.unsplash.com/photo-1583209814683-c023dd293cc6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
     background-size: cover; 
     background-repeat: no-repeat;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
     background-position: center;
     height: 70vh;
+    font-family: 'Andada', serif;
     /* background-image:url("https://zicxa.com/hinh-anh/wp-content/uploads/2019/07/T%E1%BB%95ng-h%E1%BB%A3p-c%C3%A1c-h%C3%ACnh-%E1%BA%A3nh-background-%C4%91%E1%BA%B9p-nh%E1%BA%A5t-28.jpg") */
 }
 
 #txtUsername{   
   height: 23px;
   width:230px; 
+  margin-left: 27px;
 }
 
 #txtPass{
     height: 23px;
-    width:230px
+    width:230px;
+    margin-left: 34px;
+
 }
 
 #container{ 
     border-radius: 40px;
-   
     background-color:white;
-    
-    
     opacity: 0.9;
-    
-   border: 1px solid none;
+    border: 1px solid none;
     width: 700px;
-    height: 290px;
+    height: 326px;
     margin-top: 180px;
     margin-left: 350px;
     
 }
 
 #texth{
-    margin-left: 163px;
+    /* margin-left: 163px; */
     padding: 20px;
-    font-size: 25px;
-    color: black;
+    font-size: 40px;
+    color: #FFFF00;
+    font-family: 'IM Fell English', serif;
+    text-align: center;
 }
 
 #con{
-    margin-left:55px;
-  padding: -20px;
-    color: #FF0000;
+    margin-left: 160px;
+    padding: -20px;
+    color: black;
     font-size: 23px; 
-   
 }   
 
 
 
-#con1{margin-left: 60px;
-    color:#FF0000;
+#con1{
+    margin-left: 160px;
+    color:black;
     font-size: 23px;
-   margin-top: 1px;
-   
+    margin-top: 1px;
+    margin-bottom: 100px;
 }
 #aa{
    
@@ -66,9 +67,10 @@ body{
    padding: 7px;
 }
 #aa:hover{ background-color: black;}
+
 #or{
     margin-top: 20px;
-    margin-left:247px ;
+    margin-left: 329px;
     font-size: 25px;
     color:black;
 }
@@ -83,9 +85,10 @@ body{
     text-decoration:none;
     margin: 5px 5px;
   }
-  .fa:hover {
+  
+.fa:hover {
     opacity: 0.7;
-    }
+}
     .fa-facebook {
         background: #3B5998;
         color: white;
@@ -96,8 +99,8 @@ body{
     }
     #fb{
 
-        margin-left: 91px;
-       margin-top: 20px;
+        margin-left: 116px;
+        margin-top: 20px;
     }
    
     #text{
@@ -106,6 +109,16 @@ body{
         color:black;
         font-size: 13px;
     }
+
+p{
+    margin-left: 56px;
+}
+
+#submit{
+    margin-left: 160px;
+    font-size: 19px;
+
+}
     
    
    
