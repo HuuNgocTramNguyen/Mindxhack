@@ -12,13 +12,12 @@ body {
     position: fixed; /* thanh menu nổi lên*/
     margin-left: 400px ;
     margin-top: 20px;
-    border: 2px solid red;
+    border: 2px solid #FFD700;
     width: 100%;
     height: 70px;
     padding: 20px;
-    background-color:black;
+    background-color:#FFFF00;
     opacity: 0.7;
-   
 }
 
 *{
@@ -46,6 +45,7 @@ header{ /*chữ lên hình */
 
 .container{ /* Trâm : class này ảnh hưởng cả body hạn ché ko dc sửa */
             /*Điền: a cứ sửa đó thì nàm thaooo.*/
+            /* Trâm: cho out team bây h nhoé */
     max-width: 1000px;
     margin: auto;
 }
@@ -54,7 +54,6 @@ header{ /*chữ lên hình */
     position: fixed;
     font-size: 45px;
     margin-top:5px ;
-  
      /* a chỉnh trong class này */
 } /*đừng chỉnh gì trong class Container vì nó ảnh hưởng cả body luôn á */
 
@@ -110,11 +109,12 @@ header .menu ul li{
 }
 
 header .menu ul li a{
-    color: white;
+    color: black;
     line-height: 40px;
     font-size: 20px;
     text-decoration: none;
     position: relative;
+    opacity: unset;
 }
 
 /* header .menu ul li a.active::before{
@@ -148,12 +148,22 @@ header .menu ul li a{
     position: absolute;
     background-color:white;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(204, 132, 132, 0.2);
+    box-shadow: rgba(204, 132, 132, 0.2);
     z-index: 1;
     column-count: 2;
-    border-block-end:1px solid black;
+    border-block-end:2px solid black;
 }
-  
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 160px;
+    box-shadow: rgba(29, 25, 25, 0.2);
+    z-index: 1;
+    column-count: 2;
+    border-block-end:2px solid black;
+    margin-left: 200px;
+}
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -204,7 +214,7 @@ slider > * {
 }
    
 slide:nth-child(1){
-    background-image: url('../images/bksk4.jpg');
+    background-image: url('../images/bksk2.jpg');
     left: 0%;
     animation-delay: -1s;
     background-size: cover;
@@ -219,7 +229,7 @@ slide:nth-child(2){
 }
    
 slide:nth-child(3){
-    background-image: url('../images/bksk2.jpg');
+    background-image: url('../images/bksk4.jpg');
     animation-delay: 8s;
     background-size: cover;
     background-position: center;
@@ -522,14 +532,14 @@ slide p {
 #img{
     width: 100%;
     height: 375px;
-    background-image: url("https://images.pexels.com/photos/1377034/pexels-photo-1377034.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-image: url("../images/cate2.jpg");
     background-size: cover;
 }
 
 #img1{
     width: 100%;
     height: 375px;
-    background-image: url("https://images.pexels.com/photos/3018845/pexels-photo-3018845.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-image: url('../images/cate1.jpg');
     background-size: cover;
 }
 
@@ -539,7 +549,7 @@ slide p {
     align-items: center;
     width: 100%;
     height: 750px;
-    background-image: url("https://images.pexels.com/photos/915160/pexels-photo-915160.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-image: url("../images/catebk1.jpg");
     background-size: cover;
 }
 
@@ -548,12 +558,13 @@ slide p {
     height: 375px;
     background-image: url("https://images.pexels.com/photos/3321416/pexels-photo-3321416.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
     background-size: cover;    
+    
 }
 
 #img4{
     width: 100%;
     height: 375px;
-    background-image: url("https://images.pexels.com/photos/2253839/pexels-photo-2253839.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-image: url("https://images.unsplash.com/photo-1576007381958-ba16294e99f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80");
     background-size: cover;
 }
 
@@ -740,10 +751,27 @@ slide p {
     font-size: 25px;
     /* text-align: center; */
     text-transform: uppercase;
-    margin-top: 163px;
+    /* margin-top: 163px; */
 }
 
+.info{
+    border: 2px solid #FFD700;
+    width: 100%;
+    height: 223px;
+    padding: 20px;
+    background-color:#FFFF00;
+    margin-top: 197px;
+}
 
+.info .info-skinfood p{
+    font-size: 16px;
+}
+
+.info .fa{
+    float:left;
+    padding-left: 1000px;
+    width: 500px;
+}
 
 
 
