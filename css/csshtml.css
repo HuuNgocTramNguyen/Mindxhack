@@ -2,6 +2,17 @@ body {
     margin: 0 ;
     background-color:white ;
     font-family: 'Andada', serif;
+  
+}
+.menu{
+    position: fixed;
+    margin-left: 400px ;
+    border: 1px solid red;
+    width: 100%;
+    height: 63px;
+   padding: 10px;
+   background-color:red;
+   
 }
 
 *{
@@ -26,10 +37,15 @@ header{ /*chữ lên hình */
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .container{
+position: fixed;
+}
+
+.container1{
     max-width: 1000px;
     margin: auto;
+    border: 1px solid none;
+    width: 100%;
 }
 
 .menu-inside{
@@ -42,7 +58,7 @@ header{ /*chữ lên hình */
 header .shop a{
     text-decoration: none;
     text-transform: uppercase;
-    color: #FFFF00 ;
+    color: red;
     font-size: 34px;
     font-weight: 400;
     position: relative;
@@ -101,10 +117,12 @@ header .menu ul li a.active::before{
     border: none;
     cursor: pointer;
 }
+
   
 .dropdown {
     position: relative;
-    display: inline-block;
+     display: inline-block; 
+    
 }
   
 .dropdown-content {
@@ -112,7 +130,7 @@ header .menu ul li a.active::before{
     position: absolute;
     background-color:white;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(204, 132, 132, 0.2);
     z-index: 1;
     column-count: 2;
     border-right:1px solid black;
@@ -134,9 +152,15 @@ header .menu ul li a.active::before{
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
   }
-  #sign-in{
-      margin-left: 100px;
+  #sign-in{ 
+      margin-left: 130px;
   }
+  #sign-in:hover{
+      text-decoration: underline yellow;
+  }
+  
+
+  
 
 
 
