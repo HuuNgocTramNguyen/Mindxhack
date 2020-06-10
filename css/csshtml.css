@@ -472,9 +472,10 @@ slide p {
     height: 200px;
     margin: 10px 10px;
     width: 200px;
-    padding-left: 30px;
+    /* padding-left: 30px; */
     justify-content: space-between;
     box-sizing: unset;
+    display: block;
     /* margin-bottom: 120px;  */
     /* căn chỉnh lề bên dưới img */
 }
@@ -511,8 +512,7 @@ slide p {
 
 .product .cos-product p{
     float: left;
-    margin: 10px 10px;
-    margin-bottom: 13px;
+    margin: 17px 10px;
 }
 
 .cos-product {
@@ -532,13 +532,87 @@ slide p {
 {
     height: 280px;
     width: 230px;
-    text-align: end;
-  
+    /* text-align: end; */
 }
 
-.img-cate1 p,
-.img-cate2 p,
-.img-cate3 p,
-.img-cate4 p {
-    padding-left: 120px;
+.img-cate1 .sp, 
+.img-cate2 .sp, 
+.img-cate3 .sp, 
+.img-cate4 .sp
+ {
+    padding-left: -10px;
+    text-align: center;
+    font-size:  20px;
+}
+
+.make-up , .skincare{
+    margin-top: 119px
+}
+
+.product .choice .img-cate1 .price,
+.product .choice .img-cate2 .price,
+.product .choice .img-cate3 .price,
+.product .choice .img-cate4 .price,
+.product .make-up .img-cate1 .price,
+.product .make-up .img-cate2 .price,
+.product .make-up .img-cate3 .price,
+.product .make-up .img-cate4 .price,
+.product .skincare .img-cate1 .price,
+.product .skincare .img-cate2 .price,
+.product .skincare .img-cate3 .price,
+.product .skincare .img-cate4 .price
+{
+    text-align: end;
+    height: 50px;
+    width: 202px;
+    font-size: 20px;
+} 
+
+.product .choice .opacity,
+.product .make-up .opacity,
+.product .skincare .opacity{
+    cursor: pointer;
+    position: relative;
+
+}
+
+.product .choice .opacity p,
+.product .make-up .opacity p,
+.product .skincare .opacity p
+{
+    height: 200px;
+    width: 0px;
+    margin-top: 5px;
+    position: absolute;
+    font-size:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: rgba(251, 255, 12, 0.59);
+    transition: 0.7s ease;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.product .choice .opacity:hover p,
+.product .make-up .opacity:hover p,
+.product .skincare .opacity:hover p{
+    width: 200px;
+}
+
+
+
+/* **********------ INFORMATION ------********** */
+.info .info-skinfood{
+    padding : 10px 10px;
+}
+
+.info .info-skinfood h4{
+    font-size: 40px;
+    margin-left: 306px;
+    /* text-align: center; */
+    text-transform: uppercase;
+    margin-top: 163px;
+
 }
