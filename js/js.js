@@ -1,3 +1,8 @@
+// TRÂM: CÁI NÀY KHÔNG LIÊN QUAN ĐẾN PROJECT SẢN
+// NHA. DO THÍCH ĐỂ CHUNG FOLDER NÊN MÌNH ĐỂ V Á.
+
+
+
 // let getData = async () =>{
 //     //get data from server
 //     let response = await fetch('https://jsonplaceholder.typicode.com/todos/1'); // gan response = fetch , fetch goi len server lay du lieu
@@ -8,53 +13,53 @@
 // getData();
 
 //c1
-function createRow (data){
+function createRow(data) {
     let newRow = document.createElement('tr');
-    for ( let j = 1 ; j < 4; j++){
+    for (let j = 1; j < 4; j++) {
         let newCell = document.createElement('td'); //tao moi td
-        let content ;
-       
-        if ( j === 1 ){
+        let content;
+
+        if (j === 1) {
             content = document.createTextNode(data.id);
         }
-        else if ( j === 2){
+        else if (j === 2) {
             content = document.createTextNode(data.name);
         }
         else {
-            content = document.createTextNode(data.email);   
+            content = document.createTextNode(data.email);
         }
         newCell.appendChild(content); // tao duoc 1 cell co data
-        newRow.appendChild(newCell);  
+        newRow.appendChild(newCell);
     }
     return newRow; // đưa data ra bên ngoài hàm
 }
 
-async function getData(url){
+async function getData(url) {
     //get data from server 
     let x = await fetch(url); // gan response = fetch , fetch goi len server 
     let user = await x.json(); // chuyen doi sang kieu json
     let tableUser = document.getElementById('table-user');
 
     //fill data into table
-    for ( let i = 0; i < user.length; i++){
+    for (let i = 0; i < user.length; i++) {
         let Row = createRow(user[i]); // khai báo 1 biến để hứng data
         tableUser.appendChild(Row);  // ko nen quang vao ham function vi rac roi
     }
-    
+
 
     //CREATE BUTTON NEW
     let btnNew = document.getElementById("btn-new");
     let count = user.length; // de tang ID + 1
-    btnNew.addEventListener('click', () =>{ //addEventListener : ham su kien // () =>{} giống function(){}
+    btnNew.addEventListener('click', () => { //addEventListener : ham su kien // () =>{} giống function(){}
         count += 1; // de tang ID + 1
-        let User ={
-            id : count,
+        let User = {
+            id: count,
             name: 'Tram',
             email: 'tram@gmail.com'
         };
 
         user.push(User);
-        
+
         let Row = createRow(User); // khai báo 1 biến để hứng data
         tableUser.appendChild(Row);
         //add new data row 
@@ -62,14 +67,14 @@ async function getData(url){
 
     //REMOVE BUTTON
     let btnRemove = document.getElementById('btn-remove');
-    btnRemove.addEventListener('click', () =>{
+    btnRemove.addEventListener('click', () => {
         // alert('click');
         // user.splice(user.length - 1, 1);
         // console.log(user);
 
         tableUser.deleteRow(-1); // -1 xoá từ dưới lên // 0 xoá từ trên xuống
     });
-} 
+}
 
 getData('https://jsonplaceholder.typicode.com/users');
 
